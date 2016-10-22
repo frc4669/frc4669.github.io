@@ -1,12 +1,13 @@
-ul {
+/*ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
+}*/
 
 .navbar-default {
   background-color: #7400ff;
   border-color: #5b595c;
+   
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
