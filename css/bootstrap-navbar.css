@@ -1,8 +1,10 @@
 
+nav {
+ padding: 50px; 
+}
 .navbar-default {
   background-color: #7400ff;
   border-color: #5b595c;
-  padding: 10p;
    
 }
 .navbar-default .navbar-brand {
