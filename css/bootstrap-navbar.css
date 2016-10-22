@@ -1,5 +1,6 @@
 nav {
- /*display:block;*/
+ margin:40px;
+ padding:40px;
 }
 .navbar-default {
   background-color: #7400ff;
