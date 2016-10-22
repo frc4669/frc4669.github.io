@@ -18,6 +18,8 @@ nav {
   color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a {
+  display: block;
+  padding:10px;
   color: #ffffff;
   text-align: center;
 }
