@@ -4498,6 +4498,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand {
   color: #ffec1e;
+  background-color: #862fa3;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
