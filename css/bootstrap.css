@@ -4499,11 +4499,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-brand {
   color: #ffec1e;
   background-color: #862fa3;
+  font-family: 'Roboto', sans-serif;
+  font-style: light;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #ffec1e;
   background-color: #862fa3;
+  font-family: 'Roboto', sans-serif;
+  font-style: light;
 }
 .navbar-default .navbar-text {
   color: #ffffff;
