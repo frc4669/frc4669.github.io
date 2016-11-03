@@ -5,6 +5,7 @@ nav {
 .navbar-default {
   background-color: #7400ff;
   border-color: #5b595c;
+  border-radius: 15px;
    
 }
 .navbar-default .navbar-brand {
