@@ -14,9 +14,11 @@ nav {
 .navbar-default .navbar-brand:focus {
   color: #ffffff;
 }
-.navbar-default .navbar-brand > a {
-  font-family: 'Roboto', sans-serif;
+
+a.navbar-brand {
+    font-family: 'Roboto', sans-serif;
 }
+
 .navbar-default .navbar-text {
   color: #ffffff;
 }
