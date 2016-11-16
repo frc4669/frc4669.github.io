@@ -8,10 +8,6 @@ nav {
   border-radius: 5px;
   
 }
-.navbar-default .navbar-nav {
- display: inline-block;
- float: none;
-}
 .navbar-default .navbar-brand {
  color: #ffffff;
  white-space: nowrap;
