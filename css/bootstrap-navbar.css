@@ -13,7 +13,8 @@ nav {
  float: none;
 }
 .navbar-default .navbar-brand {
-  color: #ffffff;
+ color: #ffffff;
+ white-space: nowrap;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
