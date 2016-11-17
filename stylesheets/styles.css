@@ -48,6 +48,8 @@ a small {
 .wrapper {
   width:860px;
   margin:0 auto;
+  display: block;
+  float: left;
 }
 
 blockquote {
