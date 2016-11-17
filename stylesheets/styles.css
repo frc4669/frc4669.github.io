@@ -162,8 +162,9 @@ header ul a strong {
 
 section {
   width:570px;
-  float:right;
   padding-bottom:50px;
+  display: inline-block;
+  margin:auto;
 }
 
 small {
