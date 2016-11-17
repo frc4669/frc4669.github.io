@@ -49,7 +49,6 @@ a small {
   width:860px;
   margin:0 auto;
   display: block;
-  float: left;
 }
 
 blockquote {
@@ -192,7 +191,6 @@ footer {
   }
   
   header, section, footer {
-    float:none;
     position:static;
     width:auto;
   }
@@ -206,6 +204,7 @@ footer {
     border-width:1px 0;
     padding:10px 0;
     margin:0 0 10px;
+    display:block
   }
   
   header a small {
