@@ -73,11 +73,11 @@ a.navbar-brand {
   background-color: #e7e7e7;
 }
 .navbar-default .navbar-toggle {
-  border-color: #5b595c;
+  border-color: #e7e7e7;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #5b595c;
+  background-color: #e7e7e7;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ffffff;
