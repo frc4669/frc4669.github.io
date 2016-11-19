@@ -71,11 +71,11 @@ nav {
     background-color: #e7e7e7;
 }
 .navbar-default .navbar-toggle {
-  border-color: #e7e7e7;
+  border-color: inherit;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #e7e7e7;
+  background-color: inherit;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ffffff;
