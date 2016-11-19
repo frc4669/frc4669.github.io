@@ -38,13 +38,9 @@ nav {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #7020b5;
-  background-color: #e7e7e7;
+  color: #dedede;
 }
 
-.navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: rgba(116, 0, 255, 0.7);
-}
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
   color: #ffffff;
 }
