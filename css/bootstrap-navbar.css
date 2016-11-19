@@ -10,16 +10,15 @@ nav {
 }
 .navbar-default .navbar-brand {
  color: #ffffff;
-
+ white-space: nowrap;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #ffffff;
 }
 
-.navbar-brand a{
+.navbar-default .navbar-brand a{
     font-family: 'Roboto', sans-serif;
-    white-space: nowrap;
 }
 
 .navbar-default .navbar-text {
@@ -40,7 +39,6 @@ nav {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #7020b5;
-  background-color:#e7e7e7
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
   background-color: rgba(116, 0, 255, 0.7);
