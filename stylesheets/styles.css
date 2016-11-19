@@ -166,7 +166,7 @@ header ul a strong {
   color:#fff;
 }
 
-header h1 h2 h3 h4 h5 h6 {
+header nav > h1,h2,h3,h4,h5,h6{
   color:#fff; 
 }
 
@@ -184,7 +184,7 @@ small {
 
 hr {
   border:0;
-  background:#ff3fff;
+  background:#FF7400;
   height:2px;
   margin:0 0 10px;
 }
