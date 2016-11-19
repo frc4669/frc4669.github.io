@@ -103,7 +103,6 @@ header {
   display:block;
   margin: auto;
   text-align:center;
-  //background-color: rgb(255, 255, 255);
   padding-bottom:2px;
 }
 
@@ -224,9 +223,6 @@ footer {
   }
   
   section {
-    border:2px solid #ff3fff;
-    border-width:1px 0;
-    padding:10px 0;
     margin:0 0 10px;
     display:block
   }
