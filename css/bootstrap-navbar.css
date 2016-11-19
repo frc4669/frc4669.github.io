@@ -101,9 +101,9 @@ nav {
     text-align: center;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #7020b5;
-    background-color: #e7e7e7;
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus{
+    color: #fff;
+
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
