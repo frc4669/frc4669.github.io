@@ -3,7 +3,7 @@
 body {
   padding:10px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#333;
+  color:#000;
   font-weight:300;
   background-image: url("/images/backgroundpattern.png");
   background-repeat: repeat;
@@ -166,7 +166,12 @@ header ul a strong {
   color:#fff;
 }
 
-header nav > h1,h2,h3,h4,h5,h6{
+header h1,
+header h2,
+header h3,
+header h4,
+header h5,
+header h6{
   color:#fff; 
 }
 
@@ -175,7 +180,7 @@ section {
   display: block;
   margin-left:auto;
   margin-right:auto;
-  background-color: rgba(255, 255, 255, 0.45);
+  background-color: rgba(255, 255, 255, 0.55);
 }
 
 small {
@@ -184,7 +189,7 @@ small {
 
 hr {
   border:0;
-  background:#FF7400;
+  background:#7400FF;
   height:2px;
   margin:0 0 10px;
 }
@@ -193,6 +198,7 @@ hr {
   width: 300px;
   margin-left: auto;
   margin-right: auto;
+  background-color:#fff;
 }
 
 footer {
