@@ -3,14 +3,14 @@
 body {
   padding:10px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  color:#333;
   font-weight:300;
   background-image: url("/images/backgroundpattern.png");
   background-repeat: repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#fff;
+  color:#333;
   margin:0 0 10px;
 }
 
@@ -27,11 +27,11 @@ h1 {
 }
 
 h2 {
-  color:#fff;
+  color:#333;
 }
 
 h3, h4, h5, h6 {
-  color:#fff;
+  color:#333;
 }
 
 a {
@@ -164,6 +164,10 @@ header ul a strong {
   font-size:14px;
   display:block;
   color:#fff;
+}
+
+header h1 h2 h3 h4 h5 h6 {
+  color:#fff; 
 }
 
 section {
