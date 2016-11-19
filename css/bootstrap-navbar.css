@@ -43,6 +43,7 @@ nav {
 .navbar-default .navbar-nav > li > .dropdown-menu{
     background-color: rgba(116, 0, 255, 0.7);
     min-width:0;
+    width:100%;
 }
 .navbar-default .navbar-nav > li > .dropdown-toggle{
     width:100%;
