@@ -170,6 +170,8 @@ section {
   display: block;
   margin-left:auto;
   margin-right:auto;
+  background-image: url('/images/Trans_Grey.png');
+  background-repeat: repeat;
 }
 
 small {
