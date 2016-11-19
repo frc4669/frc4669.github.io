@@ -3,14 +3,14 @@ nav {
  margin: auto;
 }
 .navbar-default {
-  background-color: #7400ff;
-  border-color: #5b595c;
-  border-radius: 5px;
+  background-color: rgba(116, 0, 255, 0.7);
+  border:0px;
+  border-radius: 0px;
   
 }
 .navbar-default .navbar-brand {
  color: #ffffff;
- white-space: nowrap;
+
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -41,7 +41,7 @@ a.navbar-brand {
   color: #ffffff;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: #7400ff;
+  background-color: rgba(116, 0, 255, 0.7);
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
   color: #ffffff;
