@@ -27,7 +27,6 @@ nav {
 .navbar-default .navbar-nav > li > a {
   display: block;
   color: #ffffff;
-  text-align: center;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
@@ -99,9 +98,11 @@ nav {
 }
 
 @media (max-width: 767px) {
+.navbar-default .navbar-nav > li > .dropdown-menu{
+    background-color: transparent;
+}
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ffffff;
-    text-align: center;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
     color: #fff;
@@ -110,6 +111,6 @@ nav {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
     color: #7020b5;
-    background-color: #e7e7e7; 	text-align: center;
+    background-color: #e7e7e7;
   }
 }
