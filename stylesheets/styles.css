@@ -201,6 +201,12 @@ hr {
   background-color:#fff;
 }
 
+#brandDesign {
+  display:block;
+  width: 535px;
+  height:356px;
+}
+
 footer {
   width:270px;
   float:left;
