@@ -195,7 +195,6 @@ hr {
 }
 
 #TopDivider {
-  width: 300px;
   margin-left: auto;
   margin-right: auto;
   background-color:#fff;
@@ -218,6 +217,7 @@ footer {
   div.wrapper {
     width:auto;
     margin:0;
+    padding:0;
   }
   
   header, section, footer {
