@@ -200,8 +200,10 @@ hr {
 
 #brandDesign {
   display:block;
-  height:150px;
-  margin: auto;
+  margin-bottom: 10px;
+  margin-top: auto;
+  margin-right:auto;
+  margin-left: auto;
 }
 
 .featurette {
