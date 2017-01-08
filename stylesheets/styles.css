@@ -94,11 +94,27 @@ th {
   color:#444;
 }
 
+.fa-stack-1x {
+    color:white;
+}
+.icon-facebook {
+   color:#3b5998;
+}
+
+.icon-twitter {
+    color:#00aced;
+}
+
+.icon-instagram{
+    color:#bc2a8d;
+}
+
+
 img {
   max-width:100%;
 }
 
-header {
+#left {
   display:block;
   margin: auto;
   text-align:center;
@@ -106,7 +122,7 @@ header {
 }
 
 
-header ul {
+#left ul {
   list-style:none;
   height:40px;
   
@@ -126,14 +142,14 @@ header ul {
   width:270px;
 }
 
-header li {
+#left li {
   width:89px;
   float:left;
   border-right:1px solid #d2d2d2;
   height:40px;
 }
 
-header ul a {
+#left ul a {
   line-height:1;
   font-size:11px;
   color:#999;
@@ -148,28 +164,28 @@ strong {
   font-weight:700;
 }
 
-header ul li + li {
+#left ul li + li {
   width:88px;
   border-left:1px solid #fff;
 }
 
-header ul li + li + li {
+#left ul li + li + li {
   border-right:none;
   width:89px;
 }
 
-header ul a strong {
+#left ul a strong {
   font-size:14px;
   display:block;
   color:#fff;
 }
 
-header h1,
-header h2,
-header h3,
-header h4,
-header h5,
-header h6{
+#left h1,
+#left h2,
+#left h3,
+#left h4,
+#left h5,
+#left h6{
   color:#fff; 
 }
 
@@ -188,14 +204,15 @@ small {
 hr {
   border:0;
   background:#7400FF;
-  height:2px;
+  height: 2px;
   margin:0 0 10px;
 }
 
-#TopDivider {
+#HorizontalDivider {
   margin-left: auto;
   margin-right: auto;
   background-color:#fff;
+  height: 2px;
 }
 
 #brandDesign {
@@ -204,6 +221,7 @@ hr {
   margin-top: auto;
   margin-right:auto;
   margin-left: auto;
+  max-height:170px;
 }
 
 .featurette {
@@ -217,20 +235,40 @@ footer {
   bottom:50px;
 }
 
+#right > * {
+	display: inline-block;
+}
+#right {text-align:center;}
+@media print, screen and (max-width: 768px) and (min-width: 480px) {
+	/*.head > * {
+	  display: inline-block; 
+	  *display: inline;zoom: 1;
+	  vertical-align: top;
+	  }
+	.head {
+	  text-align: center
+	  }
+	#left {
+	  text-align:center;
+	  overflow:hidden;
+	}
+	#right {
+	}
+	#VerticalDivider {
+	height: 200px;
+    width: 2px;
+    background: white;
+	}
+	*/
+}
 @media print, screen and (max-width: 960px) {
   
-  div.wrapper {
-    width:auto;
-    margin:0;
-    padding:0;
-  }
-  
-  header, section, footer {
+  #left, section, footer {
     position:static;
     width:auto;
   }
   
-  header {
+  #left {
 
   }
   
@@ -239,11 +277,11 @@ footer {
     display:block
   }
   
-  header a small {
+  #left a small {
     display:inline;
   }
   
-  header ul {
+  #left ul {
     position:absolute;
     right:30px;
     top:32px;
@@ -255,11 +293,11 @@ footer {
     word-wrap:break-word;
   }
   
-  header {
+  #left {
     padding:0;
   }
   
-  header ul, header p.view {
+  #left ul, #left p.view {
     position:static;
   }
   
@@ -273,7 +311,7 @@ footer {
     padding:15px;
   }
   
-  header ul {
+  #left ul {
     display:none;
   }
 }
