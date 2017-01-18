@@ -2,7 +2,7 @@
 nav {
  margin: auto;
 }
-.navbar{
+.navbar > .container{
   min-height:100px;
 }
 .navbar-default {
@@ -12,6 +12,11 @@ nav {
   margin-bottom:0;
 }
 
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 100px;
+}
 .navbar-default .navbar-brand {
  color: #ffffff;
  white-space: nowrap;
