@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
+<html><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title> {% if page.title %} {{ page.title }} | {% endif %} Galileo Robotics</title>
+    <title>  Galileo Robotics</title>
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -22,7 +20,45 @@
 
 <body>
   <!-- Fixed navbar -->
-    <nav class="navbar navbar-default">
+    
+
+
+  <div class="wrapper container">
+  <div class="row">
+	<div>
+		<div id="left">
+			<img src="/images/galileorobotics4669logoewebsite.svg" data-fallback="/images/galileorobotics4669logoewebsite.png" id="brandDesign">
+			
+		</div>
+		
+		
+		<div id="right">
+			<ul class="list-inline">
+				<li><a href="http://facebook.com/frc4669">
+					<span class="fa-stack fa-lg icon-facebook">
+					  <i class="fa fa-square fa-stack-2x"></i>
+					  <i class="fa fa-facebook fa-stack-1x"></i>
+					</span>
+					</a></li>
+				<li><a href="http://twitter.com/galrobotics4669">
+					<span class="fa-stack fa-lg icon-twitter">
+					  <i class="fa fa-square fa-stack-2x"></i>
+					  <i class="fa fa-twitter fa-stack-1x"></i>
+					</span>
+				</a></li>
+				<li><a href="http://instagram.com/frc4669">
+					<span class="fa-stack fa-lg icon-instagram">
+					  <i class="fa fa-square fa-stack-2x"></i>
+					  <i class="fa fa-instagram fa-stack-1x"></i>
+					</span>
+				</a></li>
+		</ul>    
+		</div>
+	</div>
+    
+    <h6 style="
+    text-align: center;
+"><a href="http://galileoweb.org">@ Galileo Academy of Science and Technology</a></h6><nav class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -61,46 +97,152 @@
           </ul>
         </div><!--/.nav-collapse -->
       </div>
-    </nav>
-
-
-  <div class="wrapper container">
-  <div class= "row">
-	<div class= "col-sm-3 head">
-		<div id="left">
-			<img src="/images/galileorobotics4669logoewebsite.svg" data-fallback="/images/galileorobotics4669logoewebsite.png" id="brandDesign">
-			<h6><a href="http://galileoweb.org">@ Galileo Academy of Science and Technology</a></h6>
-		</div>
-		<hr id="HorizontalDivider">
-		<div id= "VerticalDivider"></div>
-		<div id= "right">
-			<ul class="list-inline">
-				<li><a href="http://facebook.com/frc4669">
-					<span class="fa-stack fa-lg icon-facebook">
-					  <i class="fa fa-square fa-stack-2x"></i>
-					  <i class="fa fa-facebook fa-stack-1x"></i>
-					</span>
-					</a></li>
-				<li><a href="http://twitter.com/galrobotics4669">
-					<span class="fa-stack fa-lg icon-twitter">
-					  <i class="fa fa-square fa-stack-2x"></i>
-					  <i class="fa fa-twitter fa-stack-1x"></i>
-					</span>
-				</a></li>
-				<li><a href="http://instagram.com/frc4669">
-					<span class="fa-stack fa-lg icon-instagram">
-					  <i class="fa fa-square fa-stack-2x"></i>
-					  <i class="fa fa-instagram fa-stack-1x"></i>
-					</span>
-				</a></li>
-		</ul>    
-		</div>
-	</div>
-    
-    <div class= "col-sm-9">
+    </nav><div>
         <section>
     
-        {{ content }}
+        <style type="text/css">
+.carousel .carousel-control { visibility: hidden; }
+.carousel-indicators li { visibility: hidden; }
+.carousel:hover .carousel-control { visibility: visible; }
+.carousel:hover .carousel-indicators li { visibility: visible; }
+.intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+}
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="4" class=""></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item">
+          <img class="first-slide" src="/images/CSAbig_960x600.jpg" alt="First slide">
+        </div>
+        <div class="item active">
+          <img class="second-slide" src="/images/csa1_960x600.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>Courses focus on learning computer science concepts through inquiry and projects.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="/images/csa5_960x600.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>Themes and practices include the creative nature of computing, problem-solving using technology as a tool, and seeing the relevance and impact of computer science.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="fourth-slide" src="/images/csa4_960x600.jpg" alt="Fourth slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>Students in CSA take their Computer Science classes in a multi-year sequence. Students work collaboratively on projects and labs; together we form a small learning community.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="fifth-slide" src="/images/csa2_960x600.jpg" alt="Fifth slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>College and career skills are built into the courses to prepare students for higher education and future work as computing professionals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.carousel -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <h3 align="center">Who are we?</h3>
+
+      <p>Galileo Robotics is Galileo High School's robotics team.
+      Located in San Francisco, Galileo Robotics works to design and build robots to compete in nearby robotics competitions.
+      Galileo Robotics competes at FIRST Robotics Competitions as a way to 
+      further our interest in science and engineering and inspire other students at our school to take an interest in learning the 21st century skills through robotics.
+      Our success comes from showcasing skills, such as problem-solving, design thinking, and computer programming, with our team members and for our school community. </p>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h4 class="featurette-heading"><a href="/csacademy/ecs_brochure_20141209.pdf">Exploring Computer Science</a></h4>
+        <p>Students are introduced to the field of computer science through an exploration of engaging and accessible topics, such as human-computer interaction, web design, programming, and electronics. Students develop the computational practices of algorithm development, problem solving, and programming within the context of problems that are relevant to the lives of today’s students.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-responsive center-block" src="/images/csa3_960x600.jpg" alt="ECS">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 col-md-push-5">
+        <h4 class="featurette-heading"><a href="/apcsp/">AP Computer Science Principles</a></h4>
+        <p>Students learn the central ideas of computer science, explore ideas and practices of computational thinking, and engage in activities that show how computing changes the world. With the goal of creating their own mobile apps, text and graphics programs, students study the big ideas of computing: creativity, abstraction, data, algorithms, programming, the Internet, and global impacts.</p>
+      </div>
+      <div class="col-md-5 col-md-pull-7">
+        <a href="https://youtu.be/S1vFrz4NETg" target="_blank">
+          <img class="featurette-image img-responsive center-block" src="http://img.youtube.com/vi/S1vFrz4NETg/0.jpg" alt="CSP">
+        </a>
+        <!--
+        <img class="featurette-image img-responsive center-block" src="/images/csa6_960x600.jpg" alt="CSP">
+        <div class="intrinsic-container">
+          <iframe src="https://www.youtube.com/embed/S1vFrz4NETg" allowfullscreen></iframe>
+        </div>
+        -->
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h4 class="featurette-heading"><a href="/apcsa/">AP Computer Science A</a></h4>
+        <p>Students learn object-oriented program design, program implementation, program analysis, standard data structures, and algorithms. Students solve problems and create programs with an industry-level programming language and utilize software engineering practices and tools.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-responsive center-block" src="/images/csa9_960x600.jpg" alt="APCSA">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+    <h3>
+    <a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact Info</h3>
+
+    <p></p><h4>
+    Lead Instructor: <a href="/csacademy/tand.html">Mr. Danny Tan</a><br>
+    Email: <a href="mailto:tand@sfusd.edu">tand@sfusd.edu</a><br>
+    Phone: <a href="tel:+14157493430p3102">415-749-3430 ext. 3102</a><br>
+    Location: Room 102 (first floor)
+    </h4><p></p>
+
     
         </section>
     </div>
@@ -114,5 +256,6 @@
 <script src="/js/jquery-1.11.3.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 
-</body>
-</html>
+
+
+</body></html>
