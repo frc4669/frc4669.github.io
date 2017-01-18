@@ -2,23 +2,21 @@
 nav {
  margin: auto;
 }
+.navbar{
+  min-height:100px;
+}
 .navbar-default {
   background-color: rgb(116, 0, 255);
   border:0;
   border-radius: 0;
   margin-bottom:0;
-  
-}
-
-.navbar-default a,
-.navbar-default .navbar-nav li a {
-  height:100px;
-  line-height:100px;
 }
 
 .navbar-default .navbar-brand {
  color: #ffffff;
  white-space: nowrap;
+ height:100px;
+ line-height:100px;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
