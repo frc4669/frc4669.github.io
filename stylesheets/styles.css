@@ -225,6 +225,7 @@ hr {
   margin-right:auto;
   margin-left: auto;
   max-height:170px;
+  transform: translateX(-20px);
 }
 
 .featurette {
