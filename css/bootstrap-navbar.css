@@ -13,16 +13,19 @@ nav {
 }
 
 .navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 100px;
 }
 .navbar-default .navbar-brand {
  color: #ffffff;
  white-space: nowrap;
- height:100px;
- line-height:100px;
+ line-height: 100px;
+ padding-top:10px;
+ padding-bottom:10px;
 }
+
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #ffffff;
