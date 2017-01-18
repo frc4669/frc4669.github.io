@@ -3,26 +3,24 @@ nav {
  margin: auto;
 }
 .navbar > .container{
-  min-height:100px;
+  padding-top: 30px;
 }
 .navbar-default {
   background-color: rgb(116, 0, 255);
   border:0;
   border-radius: 0;
   margin-bottom:0;
+  margin: 0;
 }
 
 .navbar-nav>li>a {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 100px;
+ line-height: 50px;
 }
 .navbar-default .navbar-brand {
  color: #ffffff;
  white-space: nowrap;
- line-height: 100px;
- padding-top:10px;
- padding-bottom:10px;
+ line-height: 50px;
+ vertical-align:bottom;
 }
 
 
@@ -45,8 +43,8 @@ nav {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
-    color: #7020b5;
-    background-color: #e7e7e7;
+    color: white;
+    background-color: INHERIT;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -119,12 +117,12 @@ nav {
     color: #ffffff;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
-    color: #fff;
+    color: #fff;
 
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
     color: #7020b5;
-    background-color: #e7e7e7;
+    background-color: #e7e7e7;
   }
 }
