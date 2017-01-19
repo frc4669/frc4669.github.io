@@ -2,10 +2,6 @@
 nav {
  margin: auto;
 }
-.navbar > .container{
-  padding-top: 30px;
-}
-
 .navbar-header {
     float: left;
     padding: 15px;
