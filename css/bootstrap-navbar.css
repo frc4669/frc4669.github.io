@@ -5,6 +5,17 @@ nav {
 .navbar > .container{
   padding-top: 30px;
 }
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.navbar-brand {
+ float:none;
+}
+
 .navbar-default {
   background-color: rgb(116, 0, 255);
   border:0;
