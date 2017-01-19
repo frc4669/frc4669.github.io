@@ -12,15 +12,17 @@ nav {
 }
 
 .navbar-brand>img {
-    display: inline-block;
+  display: inline-block;
 }
 
-
+.navbar-toggle {
+  padding: 25px 0;
+}
 
 .navbar-center {
-    position: absolute;
-    text-align: center;
-    margin: auto;
+  position: absolute;
+  text-align: center;
+  margin: auto;
 }
 
 .navbar-default {
