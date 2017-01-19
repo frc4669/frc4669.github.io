@@ -17,7 +17,11 @@
   </head>
   <style>
     body {
-      background-image: url("/images/TeamPic.jpg");
+      background-image: url("/images/TeamPic.jpg") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     } 
   </style>
   <body>
@@ -106,9 +110,6 @@
       </div>
     </div>
     <div>
-      <section>
-         {{ content }}
-      </section>
       <footer>
       </footer>
     </div>
