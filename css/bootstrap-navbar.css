@@ -15,6 +15,8 @@ nav {
     display: inline-block;
 }
 
+
+
 .navbar-center {
     position: absolute;
     text-align: center;
@@ -39,6 +41,10 @@ nav {
  vertical-align:bottom;
 }
 
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse {
+    max-height: 340px;
+}
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -126,6 +132,11 @@ nav {
 }
 
 @media (max-width: 767px) {
+
+  .navbar-header{
+    min-height:80px;
+  }
+  
 .navbar-default .navbar-nav > li > .dropdown-menu{
     background-color: transparent;
 }
