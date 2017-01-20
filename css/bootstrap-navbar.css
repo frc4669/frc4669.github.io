@@ -2,6 +2,11 @@
 nav {
  margin: auto;
 }
+
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
 .navbar-header {
     left: 50%;
     position: relative;
