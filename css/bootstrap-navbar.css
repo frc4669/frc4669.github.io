@@ -3,9 +3,9 @@ nav {
  margin: auto;
 }
 .navbar-header {
-    float: left;
-    text-align: center;
-    width: 100%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
 }
 .navbar-brand {
  float:none;
@@ -88,7 +88,7 @@ nav {
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #7020b5;
+  color: #7020b5; 
   background-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
