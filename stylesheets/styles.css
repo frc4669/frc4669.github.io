@@ -49,6 +49,7 @@ a small {
 
 .wrapper {
   display: block;
+	margin-top:90px;
 }
 
 
@@ -192,6 +193,7 @@ strong {
 }
 
 section {
+	width:80%;
   padding:15px;
   display: block;
   margin-left:auto;
