@@ -220,11 +220,12 @@ hr {
 }
 
 #brandDesign {
-  display:block;
-  margin-right:auto;
+  display: block;
+  margin-right: auto;
   margin-left: auto;
-  max-height:170px;
   transform: translateX(-20px);
+  max-width: 50%;
+  max-height: 50vh;
 }
 
 .featurette {
