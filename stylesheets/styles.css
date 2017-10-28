@@ -241,7 +241,6 @@ footer {
 
 #right > * {
 	display: inline-block;
-	padding-top: 40px;
 }
 #right {text-align:center;}
 @media print, screen and (max-width: 768px) and (min-width: 480px) {
