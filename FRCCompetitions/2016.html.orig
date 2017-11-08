@@ -25,6 +25,7 @@ title: FRC 2016
 <h3 style="text-align: center">FIRST Robotics Competition 2016: (STRONGHOLD)</h3>
 <<<<<<< HEAD
 <p> Two alliances split work into three teams against each other in a competition to destroy each other’s stronghold via boulders (10-inch gray balls) throws into the opposing team’s towers. There is a 15-second period at the start in which the robot must follow preprogrammed instructions, and like the other games points scored during this period are worth more than normal. The robot must go through a mini terrain obstacle course, which is modular and can be altered between rounds, before breaching the opposing team’s stronghold.<p>
+	<!-- Carousel
 =======
 <div style="text-align: center"> <iframe width="560" height="315" src="https://www.youtube.com/embed/VqOKzoHJDjA?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <p> <br>
