@@ -10,19 +10,19 @@
     text-align:left;
 }
 .midleft_column{
-    width:25%;
-    float:left;
-    text-align:right;
+    width:75%;
+    float:right;
+    text-align:left;
 }
 .midright_column{
-    width:25%;
-    float:left;
-    text-align:right;
+    width:50%;
+    float:right;
+    text-align:left;
 }
 .right_column{
     width:25%;
-    float:left;
-    text-align:right;
+    float:right;
+    text-align:left;
 }
 .clearfix{
     clear:both;
