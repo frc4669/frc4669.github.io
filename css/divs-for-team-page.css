@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+.header_menu{
+    border-bottom:1px solid #CCC;
+    width:100%;
+}
+
+.left_column{
+    width:25%;
+    float:left;
+    text-align:left;
+}
+.midleft_column{
+    width:25%;
+    float:left;
+    text-align:right;
+}
+.midright_column{
+    width:25%;
+    float:left;
+    text-align:right;
+}
+.right_column{
+    width:25%;
+    float:left;
+    text-align:right;
+}
+.clearfix{
+    clear:both;
+}
