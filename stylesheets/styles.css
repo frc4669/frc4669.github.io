@@ -1,3 +1,4 @@
+
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
@@ -244,6 +245,10 @@ footer {
 	display: inline-block;
 }
 #right {text-align:center;}
+
+.Members{
+    column-count: 2;
+}
 @media print, screen and (max-width: 768px) and (min-width: 480px) {
 	/*.head > * {
 	  display: inline-block; 
