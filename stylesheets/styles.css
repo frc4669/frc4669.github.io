@@ -249,6 +249,15 @@ footer {
 .Members{
     column-count: 2;
 }
+.Members >li:before{
+	content:"";
+	display:list-item;
+	position:absolute;
+}
+.Members li{
+    display:inline-block;
+    width:100%;
+}
 @media print, screen and (max-width: 768px) and (min-width: 480px) {
 	/*.head > * {
 	  display: inline-block; 
