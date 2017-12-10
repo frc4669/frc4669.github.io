@@ -3,8 +3,8 @@
 <head>
 <style>
 input[type=text], select, textarea {
-    width: 60%;
-    padding: 12px;
+    width: 100%;
+    padding: 0px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
