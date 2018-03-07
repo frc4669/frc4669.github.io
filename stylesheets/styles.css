@@ -258,6 +258,7 @@ footer {
     display:inline-block;
     width:100%;
 }
+
 @media print, screen and (max-width: 768px) and (min-width: 480px) {
 	/*.head > * {
 	  display: inline-block; 
