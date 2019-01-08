@@ -1,0 +1,53 @@
+---
+layout: default
+title: FRC 2019
+---
+<script language="JavaScript" type="text/javascript" src="/js/jquery-1.11.3.min.js"></script>
+
+<style type="text/css">
+.carousel .carousel-control { visibility: hidden; }
+.carousel-indicators li { visibility: hidden; }
+.carousel:hover .carousel-control { visibility: visible; }
+.carousel:hover .carousel-indicators li { visibility: visible; }
+.intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+}
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+<div class="row" display="inline-block">
+	<h3 style="text-align: center">FIRST Robotics Competition 2019: DEEP SPACE</h3>
+	<div class="col-md-5">
+		<p> <br>
+		Two competing alliances consisting of three teams each race against the clock to score as many points as possible. Unlike past games, the 15-second period at the beginning of the match has driver vision obscured by a "sandstorm", so teams may code their robots to perform autonomously, direct the robot via cameras mounted on it, or simply drive blind. After the sandstorm period, human drivers take over. They race to place hatch panels onto cargo ships and rockets, as well as load cargo (13" inflatable rubber balls) into the cargo bays. At the end of the match, robots can climb onto the HAB's three levels to gain points. The alliance with the most points wins the match.
+		</p>
+	</div>
+	<div class="col-md-7">
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle= "tab" href="#home">Game Animation</a></li>
+		</ul>
+		
+		<div class="tab-content">
+			<div id="home" class="tab-pane fade in active" style='position: relative; width: 100%; height: 0px; padding-bottom: 60%;'>
+				<iframe class="youtube" src="https://www.youtube.com/embed/Mew6G_og-PI" frameborder="0" style='position: absolute; left: 0px; top: 0px; width: 100%; height: 100%' allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+    $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+		$('.youtube')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+		$('.youtube')[1].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+    });
+});
+</script>
